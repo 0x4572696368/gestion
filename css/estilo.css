@@ -1,0 +1,252 @@
+body{
+	font: 15px Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #24282B;
+}
+.contenedor{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+.contenedor2{
+	width: 50%;
+	margin: auto;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.boton1{
+	height: 38px;
+	background: #E8491D;
+	border:  0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #FFFFFF
+}
+aside {
+	display:block;
+}
+header{
+	background: white;
+	color: #FFFFFF;
+	padding-top: 10px;
+	min-height: 70px;
+	border-bottom: #F6713A 5px solid;
+}
+header a{
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	padding: 0 20px 20px 20px;
+}
+header #marca{
+	float: left;
+}
+header #marca h1{
+	margin:0;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .resaltado, header .actual a{
+	color: #F6713A;
+	font-weight: bold;
+}
+header a:hover{
+	color: #F6713A;
+	font-weight: bold;
+}
+#cabecera{
+	min-height: 420px;
+	background: url('../img/cir.jpg') no-repeat 0 -50px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0 0 0.4em #F6713A, 0 0 0.4em #F6713A, 0 0 0.4em #F6713A;
+}
+/*Aumentando tamaño del titulo*/
+#cabecera h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+#cabecera p{
+	font-size: 24px;
+}
+#BANNER{
+	padding: 15px;
+	color: #FFFFFF;
+	background: #24282B;
+}
+#BANNER h1{
+	float: center;
+}
+#BANNER form{
+	float: right;
+	margin-right: 15px;
+	padding: 15px;
+}
+#BANNER2{
+	padding: 1%;
+	color: black;
+	background: white;
+	}
+#cajas{
+	margin-top: 20px;
+}
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+#cajas .caja img{
+	width: 350px;
+}
+/*Footer*/
+footer{
+	padding: 20px;
+	margin-top: 4px;
+	color: #FFFFFF;
+	background-color: #FF8C00;
+	font-size: 20px;
+}
+.contenedores{
+	width: 40%;
+    height: 500px; 
+	background: white;
+	margin: 0px 0px 0px 0px;
+	float: left;
+}
+.contenedores2{
+	width: 40%;
+    height: 500px; 
+	background: white;
+	margin: 296px 0px 0px 0px;
+	float: right;
+}
+.estilocaja{
+	width: 60%;
+    height: 204px;
+    background: red;
+    margin: 0px 0px 0px 0px;
+    float: right;
+}
+.estilocaja2{
+	width: 60%;
+    height: 204px;
+    background: red;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+.contenedor3{
+}
+.contenedorform{
+     width: 68%; 
+     background: white;
+     padding: 2.5%;
+     margin: 3% 16% 3% 16%;
+     border: 2px solid #F6713A;
+     border-radius: 10px;
+}
+#cajas2{
+}
+h2{
+	color: orange;
+	font-size: 2em;
+	margin-top: 1em;
+	margin-bottom: 10px;
+	position: relative;
+	padding: 5%;
+	margin: 60px 0px 0px 5%;
+}
+h3{
+	color: red;
+	font-size: 15px;
+	text-align: center;
+}
+h4{
+
+	font-size: 18px;
+	text-align: center;
+}
+/*SECCION COMENTARIOS TEXTO + CIRCULOS*/
+#peru h2{
+	color: orange;
+	font-size: 18px;
+}
+#peru h3{
+	color: #F6713A;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	position: relative;
+}
+#peru p{
+	font-size: 20px;
+}
+.contenido {
+	color: #FFFFFF;
+	float: left;
+	text-align: center;
+	width: 100%;
+	background-color: #24282B;
+}
+.circular--square{
+	border: white 5px solid;
+	border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+.contenedor2 {
+	color: #FFFFFF;
+	float: left;
+	text-align: center;
+	width: 98.95%;
+	padding: 10px;
+	background-color: #24282B;
+}
+blockquote{
+	font-size: 18px;
+	margin: 0px 0% 0px 18%;
+}
+.sinborde {
+   border: 0;
+   width: 80%;
+}
+.btn1{
+	width: 200px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    background-color: #32CD32;
+    border-radius: 1em;
+    color: white;
+    transition:background .5s,color .5s;
+    margin: 1% 1%;
+}
+.btn1:hover{
+	background-color: orange;
+}
+@media only screen and (max-width: 900px){
+    .contenedores{
+	width: 10%;
+        height: 300px;
+	background: white;
+	margin: 0px 0px 0px 0px;
+    }
+    .estilocaja{
+	width: 100%;
+        height: 204px;
+    }
+    h2{
+    	font-size: 4em;
+    }
+}
